@@ -1,4 +1,4 @@
-# 🧠 SSVEP-Based Speller using Empirical Mode Decomposition (EMD)
+# SSVEP-Based Speller using Empirical Mode Decomposition (EMD) 🧠 
 
 This repository presents the final project of the **Advanced Signal Processing in Medicine** and **Neuroengineering** courses, conducted at the **Universitat Politècnica de València** (2022).  
 
