@@ -1,4 +1,4 @@
-# SSVEP-Based Speller using Empirical Mode Decomposition (EMD)
+# 🧠 SSVEP-Based Speller using Empirical Mode Decomposition (EMD)
 
 This repository presents the final project of the **Advanced Signal Processing in Medicine** and **Neuroengineering** courses, conducted at the **Universitat Politècnica de València** (2022).  
 
@@ -7,7 +7,7 @@ The project was developed by
 
 ---
 
-## Project Overview
+## 📘 Project Overview
 
 The goal of this work was to design a **Brain–Computer Interface (BCI) speller** based on **Steady-State Visual Evoked Potentials (SSVEP)** — EEG responses to repetitive visual stimuli — using **Empirical Mode Decomposition (EMD)** for signal processing and classification.
 
@@ -16,9 +16,9 @@ This approach contributes to assistive communication technologies for patients w
 
 ---
 
-## Methodology
+## 🧩 Methodology
 
-### Experimental Setup
+### 🎯 Experimental Setup
 - **Dataset:** [A Benchmark Dataset for SSVEP-Based BCIs (Tsinghua BCI Lab, Wang et al., 2017)]  
 - **Participants:** 35 healthy subjects (12 used for this study)  
 - **Stimulation interface:** 5×8 character matrix (40 targets)  
@@ -36,7 +36,7 @@ This approach contributes to assistive communication technologies for patients w
 
 ---
 
-### Signal Processing
+### ⚙️ Signal Processing
 
 - **Preprocessing:**  
   - Downsampled to 250 Hz  
@@ -54,7 +54,7 @@ This approach contributes to assistive communication technologies for patients w
 
 ---
 
-## Results
+## 📈 Results
 
 | IMF Combination | Accuracy (Single Run) | Accuracy (Averaged) |
 |------------------|-----------------------|----------------------|
@@ -67,7 +67,7 @@ This approach contributes to assistive communication technologies for patients w
 
 ---
 
-## Discussion
+## 🧠 Discussion
 
 - The EMD-based method successfully extracted relevant frequency components corresponding to SSVEP responses.  
 - The accuracy is limited in single-trial (online) scenarios but demonstrates the feasibility of **low-cost, training-free** SSVEP spellers.  
@@ -75,7 +75,7 @@ This approach contributes to assistive communication technologies for patients w
 
 ---
 
-## Future Work
+## 🚀 Future Work
 
 - Combine EMD with **Canonical Correlation Analysis (CCA)** or **Decision Tree** classifiers for higher accuracy.  
 - Include **word prediction dictionaries** to increase spelling speed.  
@@ -84,7 +84,7 @@ This approach contributes to assistive communication technologies for patients w
 
 ---
 
-## Limitations
+## ⚖️ Limitations
 
 - **Communication speed** remains low - only a few letters per minute in single-trial setups.  
 - **Ocular fatigue** and **visual dependency** restrict usability for some patients.  
@@ -93,7 +93,7 @@ This approach contributes to assistive communication technologies for patients w
 
 ---
 
-## Ethical Considerations
+## 🧬 Ethical Considerations
 
 The project highlights key ethical aspects of BCI development:
 - Respect for **informed consent** and participant autonomy  
@@ -103,7 +103,7 @@ The project highlights key ethical aspects of BCI development:
 
 ---
 
-## Files in this Repository
+## 📄 Files in this Repository
 
 - `SSVEP_speller_report.pdf` — Full academic report  
 - `SSVEP_speller_presentation.pdf` — Final presentation slides  
