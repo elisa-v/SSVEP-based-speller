@@ -11,8 +11,13 @@ The project was developed by
 
 The goal of this work was to design a **Brain–Computer Interface (BCI) speller** based on **Steady-State Visual Evoked Potentials (SSVEP)** — EEG responses to repetitive visual stimuli — using **Empirical Mode Decomposition (EMD)** for signal processing and classification.
 
+<img width="657" height="268" alt="speller" src="https://github.com/user-attachments/assets/f8bc0146-9aaf-47f0-8785-a096dc5ca816" />
+
 The system associates the **EEG response frequency** to the **flickering frequency** of visual targets displayed on a matrix-based interface, enabling users to select letters or symbols using only their visual attention.  
 This approach contributes to assistive communication technologies for patients with **motor or speech impairments**.
+
+<img width="757" height="440" alt="speller scheme" src="https://github.com/user-attachments/assets/2073c172-e779-47a3-9d48-7021a96ac9d9" />
+
 
 ---
 
